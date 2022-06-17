@@ -1,0 +1,210 @@
+﻿++Solution 'Hotel' ‎(1 sur 1 projets)
+i:{00000000-0000-0000-0000-000000000000}:Hotel.sln
+++Hotel
+i:{00000000-0000-0000-0000-000000000000}:Hotel
+++Properties
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\properties\
+++Références
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++EntityFramework
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++EntityFramework.SqlServer
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++EntityFramework6.Npgsql
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++Microsoft.Bcl.AsyncInterfaces
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++Microsoft.CSharp
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++Npgsql
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Buffers
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.ComponentModel.DataAnnotations
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Configuration
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Core
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Data
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Data.DataSetExtensions
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Data.Entity
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Deployment
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Drawing
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Memory
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Net.Http
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Numerics
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Numerics.Vectors
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Runtime.CompilerServices.Unsafe
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Text.Encodings.Web
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Text.Json
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Threading.Tasks.Extensions
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Transactions
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.ValueTuple
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Windows.Forms
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Xml
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++System.Xml.Linq
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:
+++Migrations
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\
+++202206091943114_chaineHoteliere.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206091943114_chainehoteliere.cs
+++202206091947533_chaineHoteliere1.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206091947533_chainehoteliere1.cs
+++202206091952058_chaineHotelierev1.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206091952058_chainehotelierev1.cs
+++202206110009221_chaineHotelierev2.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206110009221_chainehotelierev2.cs
+++202206111526583_chaineHotelierev3.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206111526583_chainehotelierev3.cs
+++202206111711117_chaineHoteliereHOTCAT.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206111711117_chainehotelierehotcat.cs
+++202206111717553_chaineHoteliereHOTCAT1.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206111717553_chainehotelierehotcat1.cs
+++Configuration.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\configuration.cs
+++App.config
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\app.config
+++Categories.cs
+++Categories.Designer.cs
+++Categories.resx
+++category.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\category.cs
+++categoryUserControl.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\categoryusercontrol.cs
+++chaineHoteliereContext.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\chainehotelierecontext.cs
+++clientUserControl.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\clientusercontrol.cs
+++Dashboard.cs
+++Dashboard.Designer.cs
+++Dashboard.resx
+++dashboardUserControl.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\dashboardusercontrol.cs
+++hotel.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\hotel.cs
+++hotelCat.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\hotelcat.cs
+++Hotels.cs
+++Hotels.Designer.cs
+++Hotels.resx
+++hotelsUserControl.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\hotelsusercontrol.cs
+++packages.config
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\packages.config
+++Program.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\program.cs
+++Reservation.cs
+++Reservation.Designer.cs
+++Reservation.resx
+++reservationUserControl.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\reservationusercontrol.cs
+++room.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\room.cs
+++roomUserControl.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\roomusercontrol.cs
+++AssemblyInfo.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\properties\assemblyinfo.cs
+++Resources.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\properties\resources.resx
+++Settings.settings
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\properties\settings.settings
+++202206091943114_chaineHoteliere.designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206091943114_chainehoteliere.designer.cs
+++202206091943114_chaineHoteliere.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206091943114_chainehoteliere.resx
+++202206091947533_chaineHoteliere1.designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206091947533_chainehoteliere1.designer.cs
+++202206091947533_chaineHoteliere1.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206091947533_chainehoteliere1.resx
+++202206091952058_chaineHotelierev1.designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206091952058_chainehotelierev1.designer.cs
+++202206091952058_chaineHotelierev1.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206091952058_chainehotelierev1.resx
+++202206110009221_chaineHotelierev2.designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206110009221_chainehotelierev2.designer.cs
+++202206110009221_chaineHotelierev2.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206110009221_chainehotelierev2.resx
+++202206111526583_chaineHotelierev3.designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206111526583_chainehotelierev3.designer.cs
+++202206111526583_chaineHotelierev3.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206111526583_chainehotelierev3.resx
+++202206111711117_chaineHoteliereHOTCAT.designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206111711117_chainehotelierehotcat.designer.cs
+++202206111711117_chaineHoteliereHOTCAT.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206111711117_chainehotelierehotcat.resx
+++202206111717553_chaineHoteliereHOTCAT1.designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206111717553_chainehotelierehotcat1.designer.cs
+++202206111717553_chaineHoteliereHOTCAT1.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206111717553_chainehotelierehotcat1.resx
+++categoryUserControl.Designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\categoryusercontrol.designer.cs
+++categoryUserControl.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\categoryusercontrol.resx
+++clientUserControl.Designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\clientusercontrol.designer.cs
+++clientUserControl.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\clientusercontrol.resx
+++dashboardUserControl.Designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\dashboardusercontrol.designer.cs
+++dashboardUserControl.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\dashboardusercontrol.resx
+++hotelsUserControl.Designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\hotelsusercontrol.designer.cs
+++hotelsUserControl.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\hotelsusercontrol.resx
+++reservationUserControl.Designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\reservationusercontrol.designer.cs
+++reservationUserControl.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\reservationusercontrol.resx
+++roomUserControl.Designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\roomusercontrol.designer.cs
+++roomUserControl.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\roomusercontrol.resx
+++Resources.Designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\properties\settings.designer.cs
+++mainForm.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\mainform.cs
+++mainForm.Designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\mainform.designer.cs
+++mainForm.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\mainform.resx
+++factureUserControl.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\factureusercontrol.cs
+++factureUserControl.Designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\factureusercontrol.designer.cs
+++factureUserControl.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\factureusercontrol.resx
+++202206122317370_chaineHoteliereROOM.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206122317370_chainehoteliereroom.cs
+++202206122317370_chaineHoteliereROOM.designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206122317370_chainehoteliereroom.designer.cs
+++202206122317370_chaineHoteliereROOM.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206122317370_chainehoteliereroom.resx
+++202206122326127_chaineHoteliereROOM1.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206122326127_chainehoteliereroom1.cs
+++202206122326127_chaineHoteliereROOM1.designer.cs
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206122326127_chainehoteliereroom1.designer.cs
+++202206122326127_chaineHoteliereROOM1.resx
+i:{6730b526-1668-4e28-b8e9-67ce75ad46ae}:e:\.net source\hotel\hotel\migrations\202206122326127_chainehoteliereroom1.resx
