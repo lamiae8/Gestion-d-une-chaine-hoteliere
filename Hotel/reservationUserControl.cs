@@ -59,6 +59,7 @@ namespace Hotel
            // var res = db.reservations;
             
 
+                client c = db.clients.Where(cl => cl.fullname == clientCombo.Text).SingleOrDefault();
             try {
                 reservation reservation = new reservation()
                 {
@@ -67,7 +68,7 @@ namespace Hotel
                     deposit = double.Parse(depositBox.Text),
                     datedeposit = depositDate.Value,
                   roomid =  Room.coderoom,
-                    clientid = clientCombo.SelectedIndex + 1
+                    clientid = c.codeclient
                     
 
                 };
@@ -75,7 +76,7 @@ namespace Hotel
                 Console.WriteLine(depositBox.Text);
                 Console.WriteLine(depositDate.Value);
                 Console.WriteLine(Room.coderoom);
-                Console.WriteLine(clientCombo.SelectedIndex + 1);
+                Console.WriteLine(c.codeclient); 
                 Console.WriteLine(arrivalDate.Value);
               //  res.ToList().ForEach(re => { if (re.roomid == Room.coderoom && re.arrival <= arrivalDate.Value && re.departure <= departureDate.Value)  ; });
               //  if (Room.booked == false && res.Find()) ;

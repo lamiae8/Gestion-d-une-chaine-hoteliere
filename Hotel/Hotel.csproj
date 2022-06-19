@@ -109,6 +109,12 @@
       <DependentUpon>clientUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="consumption.cs" />
+    <Compile Include="consumptionUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="consumptionUserControl.Designer.cs">
+      <DependentUpon>consumptionUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="dashboardUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -187,6 +193,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="reservation.cs" />
+    <Compile Include="reservationCrudUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="reservationCrudUserControl.Designer.cs">
+      <DependentUpon>reservationCrudUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="reservationUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -206,6 +218,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clientUserControl.resx">
       <DependentUpon>clientUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consumptionUserControl.resx">
+      <DependentUpon>consumptionUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dashboardUserControl.resx">
       <DependentUpon>dashboardUserControl.cs</DependentUpon>
@@ -264,6 +279,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="reservationCrudUserControl.resx">
+      <DependentUpon>reservationCrudUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="reservationUserControl.resx">
       <DependentUpon>reservationUserControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -283,6 +301,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\990e37 %281%29.png" />
+    <Content Include="Images\990e37.png" />
+    <Content Include="Images\billing.png" />
+    <Content Include="Images\cadre-cli.png" />
+    <Content Include="Images\client-bg.png" />
+    <Content Include="Images\consum.png" />
+    <Content Include="Images\consumption-bg.png" />
+    <Content Include="Images\dashboard.png" />
+    <Content Include="Images\reservation-bg.png" />
+    <Content Include="Images\welcome.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

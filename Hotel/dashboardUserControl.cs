@@ -32,8 +32,14 @@ namespace Hotel
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            this.Parent.Controls.Add(new hotelsUserControl());
+            this.Parent.Controls.Add(new reservationCrudUserControl());
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Parent.Controls.Add(new consumptionUserControl());
         }
     }
 }

@@ -22,11 +22,11 @@ namespace Hotel
         {
             
             dashboardUserControl1.Show();
-            hotelsUserControl1.Hide();
+         //   hotelsUserControl1.Hide();
             factureUserControl1.Hide();
-            clientUserControl1.Hide();
-            roomUserControl1.Hide();
-            categoryUserControl1.Hide();
+          //  clientUserControl1.Hide();
+            //roomUserControl1.Hide();
+            //categoryUserControl1.Hide();
             reservationUserControl1.Hide();
             var Hotel = db.hotels;
             Hotel.ToList().ForEach(h =>Console.WriteLine(h.Name));
