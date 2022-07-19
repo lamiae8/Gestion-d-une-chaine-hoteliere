@@ -143,7 +143,8 @@ namespace Hotel
             departureDate.Text = selectedDeparture.ToString();
             depositBox.Text = selectedDeposit.ToString();
             depositDate.Text = selectedDepositDate.ToString();
-            //load data to clientCmboBox
+          
+            //load data to categoryCmboBox
             hotel hotel = db.hotels.Where(h => h.Name == hotelComboBox.Text).SingleOrDefault() ;
             var hotelcat = db.hotelcats;
             var cat = db.categories;
@@ -173,6 +174,7 @@ namespace Hotel
             var days = departureChoosed.Date - arrivalChoosed.Date;
            
             priceBox.Text = (rr.priceroom * days.Days).ToString();
+           
         }
 
         private void hotelComboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -224,7 +226,9 @@ namespace Hotel
              List<reservation> listRes = new List<reservation>();
                 var Room = db.rooms;
             Room.ToList().ForEach(r => { if (r.Categoryid == caty.codeCat && r.hotelid == hot.codeHotel) { listRoom.Add(r); Console.WriteLine(r.numroom); } });
-               //************************************************
+              
+                
+                //************** Verifier la disponibilite de chambres libres *****************
                 var res = db.reservations;
                
                int ii; 
@@ -241,15 +245,15 @@ namespace Hotel
 
                     for (int i = 0; i < listRes.Count(); i++)
                     {
-                        if (departureDate.Value < listRes[i].arrival || arrivalDate.Value > listRes[i].departure)
-                        { listFreeRoom.Add(listRoom[ii]); };
+                        if (departureDate.Value > listRes[i].arrival && arrivalDate.Value < listRes[i].departure)
+                        { listRoom.RemoveAt(ii); };
 
-                      //  Console.WriteLine(listFreeRoom[i].numroom);
+                      
                     }
                 }
 
                 
-                this.roomNumComboBox.DataSource = listFreeRoom.ToList();
+                this.roomNumComboBox.DataSource = listRoom.ToList();
                 this.roomNumComboBox.DisplayMember = "numroom";
                 this.roomNumComboBox.ValueMember = "coderoom";
               

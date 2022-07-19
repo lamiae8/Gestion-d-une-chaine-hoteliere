@@ -29,17 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
-            this.reservationUserControl1 = new Hotel.reservationUserControl();
             this.dashboardUserControl1 = new Hotel.dashboardUserControl();
+            this.welcomeUserControl2 = new Hotel.welcomeUserControl();
             this.SuspendLayout();
-            // 
-            // reservationUserControl1
-            // 
-            this.reservationUserControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reservationUserControl1.Location = new System.Drawing.Point(0, 0);
-            this.reservationUserControl1.Name = "reservationUserControl1";
-            this.reservationUserControl1.Size = new System.Drawing.Size(1184, 568);
-            this.reservationUserControl1.TabIndex = 7;
             // 
             // dashboardUserControl1
             // 
@@ -50,13 +42,21 @@
             this.dashboardUserControl1.Size = new System.Drawing.Size(1200, 607);
             this.dashboardUserControl1.TabIndex = 0;
             // 
+            // welcomeUserControl2
+            // 
+            this.welcomeUserControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.welcomeUserControl2.Location = new System.Drawing.Point(0, 0);
+            this.welcomeUserControl2.Name = "welcomeUserControl2";
+            this.welcomeUserControl2.Size = new System.Drawing.Size(1184, 568);
+            this.welcomeUserControl2.TabIndex = 1;
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 568);
+            this.Controls.Add(this.welcomeUserControl2);
             this.Controls.Add(this.dashboardUserControl1);
-            this.Controls.Add(this.reservationUserControl1);
             this.Name = "mainForm";
             this.Text = "mainForm";
             this.Load += new System.EventHandler(this.mainForm_Load);
@@ -68,8 +68,8 @@
 
         private dashboardUserControl dashboardUserControl1 =new dashboardUserControl();
       //  private clientUserControl clientUserControl1;
-       // private hotelsUserControl hotelsUserControl1 =new hotelsUserControl();
+        private welcomeUserControl welcomeUserControl1 =new welcomeUserControl();
         private factureUserControl factureUserControl1 =new factureUserControl();
-        private reservationUserControl reservationUserControl1 =new reservationUserControl();
+        private welcomeUserControl welcomeUserControl2;
     }
 }

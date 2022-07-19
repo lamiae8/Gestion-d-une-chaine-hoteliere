@@ -213,6 +213,12 @@
       <DependentUpon>roomUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="service.cs" />
+    <Compile Include="welcomeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="welcomeUserControl.Designer.cs">
+      <DependentUpon>welcomeUserControl.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="categoryUserControl.resx">
       <DependentUpon>categoryUserControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -287,6 +293,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="roomUserControl.resx">
       <DependentUpon>roomUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcomeUserControl.resx">
+      <DependentUpon>welcomeUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
