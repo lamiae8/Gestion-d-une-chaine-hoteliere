@@ -126,6 +126,7 @@ namespace Hotel
 
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
+            priceSer = 0; 
             DataTable dtService = new DataTable();
             dtService.Columns.Add("Client ID");
             dtService.Columns.Add("Client Name");
@@ -157,7 +158,7 @@ namespace Hotel
                     ser = db.services.Find(cs.serviceid);
                 
                     DisplayService(dtService,cl.codeclient, cl.fullname, ser.servicename,ser.serviceprice, dateConsumption);
-                    priceSer = ser.serviceprice++;
+                    priceSer =priceSer + ser.serviceprice;
                 
                 } ;
             });
